@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="328.569"
+   height="33.306969"
+   viewBox="0 0 328.569 33.306969"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="g1"
+     transform="translate(0,49.722691)">
+    <g
+       id="g7"
+       transform="translate(-0.71504194,-61.991906)">
+      <g
+         id="g6"
+         transform="translate(0.42676095)">
+        <g
+           id="g8">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:23.2777px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#000000;stroke-width:0.951476;stroke-linecap:square;stroke-linejoin:round;paint-order:fill markers stroke"
+             x="-0.97362727"
+             y="30.880007"
+             id="text2"
+             transform="matrix(1.0180458,0,0,0.98227409,-0.42676095,0)"><tspan
+               id="tspan2"
+               x="-0.97362727"
+               y="30.880007"
+               style="stroke-width:0.951476">L I C O R E S   M U N D I A L E S</tspan></text>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.4717px;font-family:Futura;-inkscape-font-specification:'Futura, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;fill:#000000;stroke-width:0.428032;stroke-linecap:square;stroke-linejoin:round;paint-order:fill markers stroke"
+             x="170.15062"
+             y="44.004539"
+             id="text3"
+             transform="scale(0.96919229,1.031787)"><tspan
+               id="tspan3"
+               x="170.15062"
+               y="44.004539"
+               style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:10.4717px;font-family:Futura;-inkscape-font-specification:'Futura, Medium';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-align:center;text-anchor:middle;stroke-width:0.428032">EST. 1973</tspan></text>
+          <path
+             style="fill:#000080;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+             d="m 96.910036,44.576185 c 38.963884,0 38.963884,0 38.963884,0"
+             id="path5" />
+          <path
+             style="fill:#000080;stroke:#000000;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;paint-order:fill markers stroke"
+             d="m 193.27166,44.576185 c 38.96388,0 38.96388,0 38.96388,0"
+             id="path6" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
