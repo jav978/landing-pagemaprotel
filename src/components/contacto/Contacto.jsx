@@ -10,7 +10,7 @@ const Contacto = () => {
                 id="contactos" 
             >
                 <div className="flex flex-wrap justify-center w-full gap-5 px-4 lg:flex-col lg:items-center lg:px-0">
-                    <h1 className="mb-6 text-3xl text-center lg:text-5xl  text-slate-700 dark:text-white  font-bakbak-one">
+                    <h1 className="mb-6 text-3xl text-center lg:text-5xl  text-slate-800 dark:text-white  font-bakbak-one">
                         Contactanos
                     </h1>
 
