@@ -6,7 +6,7 @@ const Contacto = () => {
     return (
         <>
             <section
-                className="flex flex-wrap items-center justify-center w-full dark:text-white Justify-center"
+                className="flex flex-wrap items-center justify-center w-full dark:text-white Justify-center text-slate-800"
                 id="contactos" 
             >
                 <div className="flex flex-wrap justify-center w-full gap-5 px-4 lg:flex-col lg:items-center lg:px-0">

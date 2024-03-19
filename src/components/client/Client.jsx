@@ -9,22 +9,22 @@ const Client = () => {
     return (
         <>
             <article
-                className="flex flex-wrap justify-center w-full text-slate-800 dark:text-white"
+                className="flex flex-wrap justify-center w-full text-slate-700 dark:text-white"
                 id="cliente"
             >
                 <div className="flex flex-wrap justify-center gap-5 lg:flex-col w-full">
-                    <h1 className="text-3xl text-center lg:text-5xl dark:text-white font-bakbak-one mt-8">
+                    <h1 className="text-3xl text-center lg:text-5xl font-bakbak-one mt-8 text-slate-800 dark:text-white">
                         Principales Clientes
                     </h1>
 
-                    <p className="mt-8 text-center lg:text-2xl font-montserratdark:text-white lg:mt-4">
-                        En <span className="font-bold"> Maprotel</span> servimos
+                    <p className="mt-8 text-center lg:text-2xl font-montserrat  text-slate-700 dark:text-white lg:mt-4">
+                        En <span className="font-bold text-slate-700 dark:text-white"> Maprotel</span> servimos
                         a una amplia gama de clientes, desde startups hasta
                         grandes empresas.
                     </p>
                 </div>
 
-                <div className="flex flex-col flex-wrap items-center justify-between w-full  gap-20 mt-8 mb-8 lg:flex-row gap-y-15 md:gap-20">
+                <div className="flex flex-col flex-wrap items-center justify-between w-full  gap-20 mt-8 mb-8 lg:flex-row gap-y-15 md:gap-20 text-slate-700 dark:text-white">
                     <img
                         className="w-[50px] grayscale hover:grayscale-0 hover:scale-125"
                         src={LogoSarem}

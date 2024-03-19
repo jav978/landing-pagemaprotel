@@ -2,11 +2,11 @@ import ImageAbout from "./../../assets/image-agent/agente2.jpg";
 const About = () => {
     return (
         <>
-            <section
+            <section className="text-slate-800 dark:text-white"
                 
                 id="about"
             >
-                 <h1 className="text-3xl text-center  font-bakbak-one lg:text-5xl  text-slate-700 dark:text-white">
+                 <h1 className="text-3xl text-center  font-bakbak-one lg:text-5xl  text-slate-800 dark:text-white">
 						Nosotros
                         </h1>
                 <div className="grid max-w-screen-xl grid-cols-1 gap-10 mt-8 mx-auto lg:py-8 lg:grid-cols-2">
@@ -19,7 +19,7 @@ const About = () => {
                     </div>
 
                     <div className="flex flex-col items-center w-full lg:items-start justify-between gap-">
-                        <h1 className=" text-slate-700 dark:text-white text-2xl text-centerfont-bakbak-one lg:text-3xl  lg:text-right mt-4 lg:mt-0">
+                        <h1 className="text-slate-800 dark:text-white text-2xl text-center font-bakbak-one lg:text-3xl  lg:text-right mt-4 lg:mt-0">
 						¿Quienes Somos?
                         </h1>
                         <p className="lg:leading-loose mt-8 text-lg font-normal text-justify lg:text-justify lg:text-2xl sm:px-16 lg:px-0  font-montserrat lg:mt-0  text-slate-700 dark:text-white">
