@@ -1,4 +1,7 @@
-import whatsappIcon from './../../assets/icons/icons8-whatsapp.svg';
+import { FaWhatsapp } from "react-icons/fa6";
+import { Button } from "flowbite-react";
+
+
 const Contacto = () => {
     return (
         <>
@@ -6,7 +9,7 @@ const Contacto = () => {
                 className="flex flex-wrap items-center justify-center w-full dark:text-white Justify-center"
                 id="contactos" 
             >
-                <div className="flex flex-wrap justify-center w-full gap-5 px-4 lg:flex-col lg:items-center">
+                <div className="flex flex-wrap justify-center w-full gap-5 px-4 lg:flex-col lg:items-center lg:px-0">
                     <h1 className="mb-6 text-3xl text-center lg:text-5xl dark:text-white font-bakbak-one">
                         Contactanos
                     </h1>
@@ -21,16 +24,16 @@ const Contacto = () => {
                         <span className="font-bold">WhatsApp</span> y te
                         atenderemos con gusto
                     </p>
-
-                    <a
-                        href="https://api.whatsapp.com/send?phone=584123456789&text=Hola,%20me%20gustaría%20saber%20más%20sobre%20tu%20producto"
-                        className="inline-flex items-center justify-center px-5 py-3 mb-6 text-base font-medium text-center text-white bg-blue-700 rounded-lg hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 dark:focus:ring-blue-900"
-                    >
-                        
-                        Contactenos
-
-						<img className="w-6 h-6 ml-2" src={whatsappIcon} alt="Logoo de Whatsapp" /> 
-                    </a>
+                    <Button
+                                size="lg"
+                                href="https://api.whatsapp.com/send?phone=584123456789&text=Hola,%20me%20gustaría%20saber%20más%20sobre%20tu%20producto"
+                                className="inline-flex items-center justify-center text-base font-bold text-center text-white capitalize h-[48px]  mb-8"
+                                gradientDuoTone="purpleToBlue"
+                            >
+                                <FaWhatsapp className="mr-2 h-5 w-5" />
+                                Contactenos
+                            </Button>
+                    
                 </div>
             </section>
         </>

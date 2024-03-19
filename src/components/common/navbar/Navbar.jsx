@@ -1,16 +1,18 @@
+
+
 import Logo from "./../../../assets/logo/logo-white.png";
 import { DarkThemeToggle, Flowbite } from "flowbite-react";
 
 const Navbar = () => {
     return (
         <>
-            <nav className="bg-[#004094] text-white   dark:bg-slate-900">
-                <div className="flex flex-wrap items-center justify-between max-w-screen-xl p-4 mx-auto dark:bg-slate-900">
+            <nav className="bg-[#004094]  text-white   dark:bg-slate-900">
+                <div className="flex flex-wrap items-center justify-between max-w-screen-xl py-4 mx-auto dark:bg-slate-950">
                     <a
                         href="#"
                         className="flex items-center space-x-3 rtl:space-x-reverse"
                     >
-                        <img src={Logo} className="h-10" alt="Flowbite Logo" />
+                        <img src={Logo} className="mx-4 lg:mx-0 h-10" alt="Logo" />
                     </a>
 
                     <div className="flex md:order-2">
@@ -47,18 +49,20 @@ const Navbar = () => {
                             ></path>
                         </svg>
                     </a>
+
+                    {/*** <!-- Menu */}
                     <div
                         className="hidden w-full md:block md:w-auto dark:bg-slate-900"
                         id="menu-open"
                     >
-                        <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:bg-slate-900 md:dark:bg-[#004094]dark:border-gray-700">
+                         <ul className="flex flex-col font-medium p-4 md:p-0 mt-4 border rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0  dark:bg-slate-900 md:dark:bg-[#004094]dark:border-gray-700">
                             <li>
                                 <a
                                     href="/"
                                     className="block py-2 px-3 text-white rounded hover:bg-[#467BBA] md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                                     aria-current="page"
                                 >
-                                    Home
+                                    Inicio
                                 </a>
                             </li>
 
@@ -86,12 +90,14 @@ const Navbar = () => {
                                     Contactos
                                 </a>
                             </li>
-                        </ul>
+                        </ul> 
+                       
                     </div>
                 </div>
             </nav>
         </>
     );
 };
+
 
 export default Navbar;
