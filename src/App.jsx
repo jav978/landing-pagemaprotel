@@ -1,5 +1,6 @@
 import CardAbout from "./components/card/CardAbout";
 import Client from "./components/client/Client";
+import './App.css'
 import Footer from "./components/common/footer/Footer";
 // import Navbar from "./components/common/navbar/Navbar";
 import Hero from "./components/hero/Hero";
@@ -16,10 +17,10 @@ export default function App() {
                 {/* <Navbar /> */}
                 <Menu />
                 <main
-                    className="scroll-smooth grid  overflow-hidden bg-bkg text-content dark:bg-content isolate  place-items-center lg:px-0 px-6"
+                    className="scroll-smooth grid  overflow-hidden bg-bkg text-content dark:bg-content isolate  place-items-center lg:px-0 px-6 bg-gradient-to-r from-slate-50 dark:from-slate-600 dark:via-slate-700 via-slate-100 dark:to-slate-900 to-slate-300"
                     id="main"
-                >
-                    <div className="relative grid min-h-screen gap-10 place-items-center place-content-center before:absolute before:h-1/2 before:w-3/4 before:rounded-tr-full before:rounded-bl-full before:blur-3xl before:bg-accent-2 before:animate-spin-slower before:-z-10 after:absolute after:h-1/3 after:w-2/3 after:rounded-tr-full after:rounded-bl-full after:blur-3xl after:bg-accent-1/80 after:animate-spin-slow after:-z-10 max-w-7xl md:px-4">
+                    >
+                    <div className="relative grid min-h-screen gap-10 place-items-center place-content-center  max-w-7xl md:px-4">
                         <Hero />
                         <Client />
                         <About />

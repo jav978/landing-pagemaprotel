@@ -2,7 +2,6 @@ import { Button } from "flowbite-react";
 import { FaWhatsapp } from "react-icons/fa6";
 import ImageHero from "./../../assets/image-agent/agente1.png";
 
-
 import "@fontsource/bakbak-one";
 const Hero = () => {
     return (
@@ -20,19 +19,21 @@ const Hero = () => {
                         </p>
                         <div className="flex flex-col space-y-4 sm:flex-row sm:justify-center sm:space-y-0">
                             <Button
+                                gradientDuoTone="purpleToBlue"
                                 size="lg"
                                 href="https://api.whatsapp.com/send?phone=584123456789&text=Hola,%20me%20gustaría%20saber%20más%20sobre%20tu%20producto"
-                                className="inline-flex items-center justify-center text-base font-bold text-center text-white capitalize h-[48px] mt-8 hover:bg-blue-200"
-                                gradientDuoTone="purpleToBlue"
+                                
+                                
                             >
                                 <FaWhatsapp className="mr-2 h-5 w-5" />
                                 Contactenos
                             </Button>
+
                         </div>
                     </div>
                     <img
                         src={ImageHero}
-                        className="border-2 border-gradientDuoTone rounded-md  mt-8 lg:mt-0 h-[100%] w-[100%]   lg:block  mx-auto"
+                        className="border-2 border-indigo-500/100  rounded-md  mt-8 lg:mt-0 h-[100%] w-[100%]   lg:block  mx-auto"
                         alt="Agent image"
                     />
                 </div>

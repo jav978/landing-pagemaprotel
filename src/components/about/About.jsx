@@ -13,7 +13,7 @@ const About = () => {
                     <div>
                         <img
                             src={ImageAbout}
-                            className="rounded-md h-[100%] w-[100%] ml-auto  lg:block"
+                            className="rounded-md h-[100%] w-[100%] ml-auto  lg:block border-2 border-indigo-500 "
                             alt="Agent image"
                         />
                     </div>
