@@ -17,10 +17,10 @@ export default function App() {
                 {/* <Navbar /> */}
                 <Menu />
                 <main
-                    className="scroll-smooth grid  overflow-hidden bg-bkg text-content dark:bg-content isolate  place-items-center lg:px-0 px-6 bg-gradient-to-r from-slate-50 dark:from-slate-600 dark:via-slate-700 via-slate-100 dark:to-slate-900 to-slate-300"
+                    className="scroll-smooth grid  overflow-hidden bg-bkg text-content dark:bg-content isolate  place-items-center lg:px-0  bg-gradient-to-r from-slate-50 dark:from-neutral-900 dark:via-slate-700 via-slate-100 dark:to-[#180c3d]  to-slate-300 dark:bg-blend-darken"
                     id="main"
                     >
-                    <div className="relative grid min-h-screen gap-10 place-items-center place-content-center  max-w-7xl md:px-4">
+                    <div className="relative grid min-h-screen gap-10 place-items-center place-content-center  max-w-7xl sm:px-6 md:px-6 px-6 lg:px-6">
                         <Hero />
                         <Client />
                         <About />

@@ -19,7 +19,7 @@ const CardAbout = () => {
                         <div className="overflow-hidden shadow-lg rounded-xl dark:shadow-lg h-65" key={card.id}>
                             <div className="mx-auto text-centerddark:bg-slate-400">
                                 <img
-                                    className="bg-slate-100 py-4 h-60 w-[100%] "
+                                    className="h-[100%]  w-[100%]"
                                     src={card.img.src}
                                     alt={card.img.alt}
                                 />

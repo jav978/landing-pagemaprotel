@@ -6,10 +6,10 @@ const Contacto = () => {
     return (
         <>
             <section
-                className="flex flex-wrap items-center justify-center w-full dark:text-white Justify-center text-slate-800"
-                id="contactos" 
+                className="flex  max-w-screen-xl dark:text-white  text-slate-800"
+                id="contactos " 
             >
-                <div className="flex flex-wrap justify-center w-full gap-5 px-4 lg:flex-col lg:items-center lg:px-0">
+                <div className="flex flex-wrap justify-center gap-5 px-4 lg:flex-col lg:items-center flex-col lg:px-0">
                     <h1 className="mb-6 text-3xl text-center lg:text-5xl  text-slate-800 dark:text-white  font-bakbak-one">
                         Contactanos
                     </h1>
@@ -26,14 +26,13 @@ const Contacto = () => {
                     </p>
                     <Button
                                 size="lg"
-                                href="https://api.whatsapp.com/send?phone=584123456789&text=Hola,%20me%20gustaría%20saber%20más%20sobre%20tu%20producto"
-                                className="inline-flex items-center justify-center text-base font-bold text-center text-white capitalize h-[48px]  mb-8"
+                                href="https://api.whatsapp.com/send?phone=584122038886&text=Bienvenidos a Maprotel,%20me%20gustaría%20saber%20más%20sobre%20tu%20producto"
+                                className="flex items-center justify-center text-base font-bold text-center text-white capitalize mx-auto mb-8"
                                 gradientDuoTone="purpleToBlue"
                             >
                                 <FaWhatsapp className="mr-2 h-5 w-5" />
                                 Contactenos
-                            </Button>
-                    
+                            </Button>                    
                 </div>
             </section>
         </>

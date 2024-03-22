@@ -1,4 +1,3 @@
-
 // import Link from 'next/link';
 // import Logo from "./../../../assets/logo/logo-white.png";
 // import { DarkThemeToggle, Flowbite } from "flowbite-react";
@@ -21,7 +20,7 @@
 //                                 <DarkThemeToggle />
 //                             </Flowbite>
 //                         {/* <!-- Dark mode switcher end --> */}
-                       
+
 //                     </div>
 
 //                     {/* <!-- Boton menu hamburgesa
@@ -90,8 +89,8 @@
 //                                     Contactos
 //                                 </a>
 //                             </li>
-//                         </ul> 
-                       
+//                         </ul>
+
 //                     </div>
 //                 </div>
 //             </nav>
@@ -99,6 +98,4 @@
 //     );
 // };
 
-
 // export default Navbar;
-

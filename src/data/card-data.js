@@ -1,9 +1,19 @@
-import image1 from "../assets/image-card/card-image01.svg";
-import image2 from "../assets/image-card/card-image02.svg";
-import image3 from "../assets/image-card/card-image03.svg";
-import image4 from "../assets/image-card/card-image04.svg";
-import image5 from "../assets/image-card/card-image05.svg";
-import image6 from "../assets/image-card/card-image06.svg";
+// import image1 from "../assets/image-card/card-image01.svg";
+// import image2 from "../assets/image-card/card-image02.svg";
+// import image3 from "../assets/image-card/card-image03.svg";
+// import image4 from "../assets/image-card/card-image04.svg";
+// import image5 from "../assets/image-card/card-image05.svg";
+// import image6 from "../assets/image-card/card-image06.svg";
+
+
+import image1 from "../assets/image-card/g1.png";
+import image2 from "../assets/image-card/g2.png";
+import image3 from "../assets/image-card/g3.png";
+import image4 from "../assets/image-card/g4.png";
+import image5 from "../assets/image-card/g5.png";
+import image6 from "../assets/image-card/g6.png";
+
+
 
 
 export const cardData = [

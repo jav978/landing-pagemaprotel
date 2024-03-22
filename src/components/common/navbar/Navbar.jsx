@@ -6,8 +6,9 @@ import { DarkThemeToggle, Flowbite } from "flowbite-react";
 const Navbar = () => {
     return (
         <>
-            <nav className="bg-[#004094]  text-white   dark:bg-slate-900">
+            <nav className="bg-[#ff0088]  text-white   dark:bg-slate-900">
                 <div className="flex flex-wrap items-center justify-between max-w-screen-xl py-4 mx-auto dark:bg-slate-950">
+                    <div className="ax-w-7xl sm:px-6 md:px-6 px-6 lg:px-6">
                     <a
                         href="#"
                         className="flex items-center space-x-3 rtl:space-x-reverse"
@@ -93,6 +94,8 @@ const Navbar = () => {
                         </ul> 
                        
                     </div>
+                    
+                </div>
                 </div>
             </nav>
         </>

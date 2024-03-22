@@ -10,6 +10,8 @@ export default {
     'node_modules/flowbite-react/lib/esm/**/*.js',    
   ],
   "darkMode":"class",
+  
+  
   theme: {
     extend: {
       colors: {
@@ -28,7 +30,6 @@ export default {
     fontFamily: {
       'bakbak-one': ['Bakbak One', 'system-ui'],
       'montserrat': ['montserrat', 'system-ui'],
-
       
     }
   },
