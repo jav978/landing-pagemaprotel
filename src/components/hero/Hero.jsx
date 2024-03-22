@@ -21,7 +21,7 @@ const Hero = () => {
                             <Button
                                 gradientDuoTone="purpleToBlue"
                                 size="lg"
-                                href="https://api.whatsapp.com/send?phone=584123456789&text=Hola,%20me%20gustaría%20saber%20más%20sobre%20tu%20producto"
+                                href="https://api.whatsapp.com/send?phone=584122038886&text=Bienvenidos a Maprotel,%20me%20gustaría%20saber%20más%20sobre%20tu%20producto"
                                 className="mt-8"
                                 
                             >
